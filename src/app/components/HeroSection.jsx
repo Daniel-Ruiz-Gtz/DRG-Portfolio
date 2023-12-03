@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -36,20 +37,25 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consectetur, quasi magnam error a voluptas perspiciatis harum, atque
-            ratione praesentium incidunt animi, necessitatibus iure. Placeat vel
-            facere fugit similique ipsam labore.
+            Passionate about Automation Scripting and Application Development, I
+            derive immense satisfaction from creating streamlined and reliable
+            automation scripts. My work not only saves valuable time and effort
+            but also enhances team productivity. Furthermore, my enthusiasm
+            drives me to continuously explore new technologies, ensuring a
+            dynamic skill set that positions me as a versatile developer ready
+            to tackle evolving challenges.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-900 via-blue-700 to-blue-400 text-white">
-              Contact Me
-            </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-900 via-blue-700 to-blue-400 hover:bg-slate-800 text-white mt-3">
+            <Link href="#contact">
+              <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-900 via-blue-700 to-blue-400 text-white">
+                Contact Me
+              </button>
+            </Link>
+            {/* <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-900 via-blue-700 to-blue-400 hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Second Button
               </span>
-            </button>
+            </button> */}
           </div>
         </motion.div>
         <motion.div
