@@ -97,10 +97,11 @@ const AboutSection = () => {
         <div>
           <h2 className="text-3xl font-bold mb-4"> About Me </h2>
           <p className="text-base lg:text-lg">
-            I am a passionate Computer Engineering graduate from Universidad de
-            Guadalajara, Mexico, with a strong focus on Automation and
-            Scripting. I thoroughly enjoy developing solutions to automate tasks
-            and streamline processes, making life easier through code.
+            I am a passionate Computer Science Engineering graduate from
+            Universidad de Guadalajara, Mexico. With a strong focus on
+            Automation and Scripting. I thoroughly enjoy developing solutions to
+            automate tasks and streamline processes, making life easier through
+            code.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
