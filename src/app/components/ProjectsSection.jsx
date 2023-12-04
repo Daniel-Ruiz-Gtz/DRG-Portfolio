@@ -7,11 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Project01",
-    description: "Project01 description",
+    title: "AI-DinoGame",
+    description:
+      "The project consists of implementing the neural networks, so that the AI ​​learns to play the famous game of the dinosaur of the google browser.",
     image: "/images/projects/1.png",
-    tag: ["All", "Cat01"],
-    gitUrl: "/",
+    tag: ["All", "Python", "IA"],
+    gitUrl: "https://github.com/Daniel-Ruiz-Gtz/AI-DinoGame",
     previewUrl: "/",
   },
   {
