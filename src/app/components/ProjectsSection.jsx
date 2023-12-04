@@ -17,11 +17,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Project02",
-    description: "Project02 description",
+    title: "NextJs Portfolio",
+    description:
+      "Elevate your digital presence with my sleek and responsive personal portfolio. Explore my skills, projects, and journey in a fast, modern, and visually captivating environment.",
     image: "/images/projects/2.png",
-    tag: ["All", "Cat01", "Cat02"],
-    gitUrl: "/",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Daniel-Ruiz-Gtz/DRG-Portfolio",
     previewUrl: "/",
   },
   {
@@ -66,13 +67,23 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Cat01"
-          isSelected={tag === "Cat01"}
+          name="Python"
+          isSelected={tag === "Python"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Cat02"
-          isSelected={tag === "Cat02"}
+          name="IA"
+          isSelected={tag === "IA"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Automation"
+          isSelected={tag === "Automation"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Web"
+          isSelected={tag === "Web"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
