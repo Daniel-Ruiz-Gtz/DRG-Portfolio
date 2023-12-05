@@ -27,11 +27,12 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Project03",
-    description: "Project03 description",
+    title: "Password-Generator",
+    description:
+      "A python program for generating strong passwords with a user-friendly interface. Ideal for creating secure passwords quickly.",
     image: "/images/projects/3.png",
-    tag: ["All", "Cat02"],
-    gitUrl: "/",
+    tag: ["All", "Python", "Automation"],
+    gitUrl: "https://github.com/Daniel-Ruiz-Gtz/Password-Generator",
     previewUrl: "/",
   },
 ];
