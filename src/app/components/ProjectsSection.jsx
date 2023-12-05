@@ -35,6 +35,16 @@ const projectsData = [
     gitUrl: "https://github.com/Daniel-Ruiz-Gtz/Password-Generator",
     previewUrl: "/",
   },
+  {
+    id: 4,
+    title: "Multilayer-Perceptron",
+    description:
+      "Red neural multilayer for solving nonlinear classification problems",
+    image: "/images/projects/4.png",
+    tag: ["All", "Python", "IA"],
+    gitUrl: "https://github.com/Daniel-Ruiz-Gtz/Multilayer-Perceptron",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
